@@ -1,0 +1,30 @@
+/*
+Query examples:
+
+Entities:
+customers, invoices, invoiceLines, items
+
+CRUD Example:
+
+GET customers
+GET customers/id/
+POST customers
+PUT customer/update
+DELETE customer/id
+
+Relations:
+
+GET customers/id/orders
+GET orders/id/orderDetails
+GET items/id/orderDetails
+
+POST /customers/17850/orders/ 
+     {"invoiceNo":"536365"}
+	 
+POST /order/536367/orderDetails/ 
+     {"invoiceLineId":"10"}
+
+DELETE /customers/17850/orders/536365
+
+DELETE /order/536367/orderDetails/10
+*/

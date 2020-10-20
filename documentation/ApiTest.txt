@@ -1,0 +1,25 @@
+
+Relations
+
+items/21106/orderDetails get, post
+items/21106/orderDetails/10
+
+orders/536365/orderDetails get, post
+orders/536365/orderDetails/55383 delete
+
+/customers/13047/orders get, post
+/customers/13047/orders/C572491 delete
+
+Entites (get, post, update, delete)
+
+/customers get, post
+/customers/13047 get, update, delete
+
+/invoices
+/invoices/536367
+
+/items
+/items/90116
+
+/invoiceLines
+/invoiceLines/7
